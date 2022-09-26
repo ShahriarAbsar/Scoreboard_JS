@@ -1,0 +1,129 @@
+.textc{
+	text-align: center;
+	
+font-size: 200%;
+}
+.input{
+	
+	font-weight:bold;
+	position: absolute;
+	top: 30px;
+	left: 230px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	text-align: center;
+	min-height: 10vh;
+	width: 1000px;
+	height: 50px;
+	margin: 10px ;
+	padding-top: 10px;
+	
+	
+	
+}
+
+
+.input2{
+	
+	position: absolute;
+	top:30px;
+	right: -380px;	
+	display: grid;
+    grid-template-columns: 1fr 1fr;
+	text-align: auto;
+	min-height: 10vh;
+	width: 1000px;
+	height: 50px;
+	margin: 10px ;
+	padding-right: 100px;
+	padding-top: 11px;
+	padding-bottom: 100px;
+	font-family: 'FreeMono', monospace;
+	
+	
+	
+	
+	
+		
+}
+
+  
+.scoreboard{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	font-family: 'FreeMono', monospace;
+	width: 1900px;
+}
+
+.scoreboard__name,
+.scoreboard__score{
+	padding-top: 150px;
+	padding-bottom: 50px;
+	
+	text-align: center;
+	margin: 10px ;
+	
+}
+
+.scoreboard__name{
+	border-radius: 40px;
+	font-weight:bold;
+	border-top: 5px solid rgb(103, 100, 100);
+	border-bottom:5px solid rgb(111, 107, 107);
+	border-left: 2px solid #797982;
+	border-right: 2px solid #6e6e77;
+}
+.scoreboard__name--one{
+	font-size: 4em;
+	color:#0d34d2;
+
+}
+.scoreboard__name--two{
+	font-size: 4em;
+	color:#d10808;
+}
+
+
+
+.scoreboard__score{
+	color: #022503f3;
+	border-radius: 40px;
+	border-top: 5px solid rgb(103, 100, 100);
+	border-bottom:5px solid rgb(111, 107, 107);
+	border-left: 2px solid #797982;
+	border-right: 2px solid #6e6e77;
+	font-size: 7em;
+	margin: 10px ;
+	padding-top: 10px;
+
+}
+.scoreboard__controls{
+	display: flex;
+	padding: 30px;
+	
+
+}
+.scoreboard__control-button{
+	font-size: 200%;
+	border-radius: 40px;
+	flex-grow: 1;
+	padding: 15px;
+	background:rgb(203, 244, 167)
+	
+}
+
+.scoreboard__control-button:hover{
+	background: rgba(28, 243, 4, 0.473);
+}
+.scoreboard__control-button2:hover{
+	background: rgba(6, 111, 6, 0.645);
+}
+.scoreboard__control-button1:active{
+	background: rgb(240, 21, 21);
+}
+.scoreboard__control-button:active{
+	background: rgb(25, 243, 5);
+}
+
+
+
